@@ -41,7 +41,25 @@
 .paragraph{
  text-align: center;
  color: var(--blue);
- padding: 1rem;
+ 
+}
+.footer{
+    background-color: var(--blue-shade);
+
+    display: flex;
+ }
+.parent{
+    
+
+}
+.h{
+
+}
+.par{
+
+}
+.side-list{
+
 }
 
 
