@@ -1,14 +1,14 @@
 #header{
  background-color: var(--blue-shade);
- width: 100%;
- height: 14rem;
 }
 
 .navbar{
+width: 100%;
    display:flex;
-   flex-direction: row;
    justify-content: space-between;
    align-items: center;
+   font-size: 2rem;
+   
 }
 
 .image{
@@ -16,15 +16,41 @@
 }
 
 .para{
-  display: flex;
-  flex-direction: row;
-  
-    font-size: 25px;
-  
+    
+    display: flex;
+   flex-direction: row;
+   align-items: center; 
+   justify-content: space-between;
+    
 }
+
+.list1{
+    display: flex;
+    text-decoration: none;
+}
+
+
+.translate{
+   font-size: var(--text-font);
+    width: 100%;
+    border:1px solid black;
+    display: inline-flex;
+    justify-content: center;
+    align-items:center;
+    margin: 0 2rem ;
+    
+}
+
+.translate  a{
+
+    text-align: center;
+    
+}
+
+
 .para a{
     padding: 2rem;
-    
+    text-decoration: none;
 }
 .gros{
     background-color: var( --yellow);
@@ -36,30 +62,101 @@
 .title{
    text-align: center;
    margin: 1.5rem;
-   padding: 2rem;
+   padding: 1rem;
 }
 .paragraph{
- text-align: center;
+ justify-content: center;
  color: var(--blue);
- 
+ display: flex;
+ text-align: center;
+
 }
 .footer{
     background-color: var(--blue-shade);
-
-    display: flex;
+    width: 100%;
+    height: auto;
+    font-size: 20px;
  }
-.parent{
-    
 
-}
 .h{
-
+    text-align: center;
+  font-size: 4rem;
+  color: rgb(214, 235, 30);
 }
-.par{
+.parent{
+    display: flex;
+    padding: 1rem;
+    margin: 2rem;
+    justify-content: space-around;
+    
+}
 
+.par{
+    font-size: 7rem;
+    margin-top: 7rem;
+    padding: 4rem;
 }
 .side-list{
-
+ height: auto;
+ width: auto;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
 }
 
+.side-list h2{
+    color: var(--yellow);
+    font-size: 5rem;
+    
+}
+.side-list p{
+    background-color:rgb(202, 214, 26) ;
+    width: 35rem;
+    font-size:6rem;
+    border-radius: 25%;
+}
+.side-list a{
+    font-size:4rem ;
+    color: rgb(255, 255, 255);
+}
+span{
+    color: rgb(218, 221, 17);
+}
+
+.test-covid{
+    display: flex;
+    flex-direction: column;
+   background-color: var(--blue);
+   width: auto;
+   height: auto;
+   
+}
+
+.qst{
+    text-align: center;
+    padding:4rem ;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+}
+
+.logo-f{
+   text-align: center;
+}
+
+
+.butt{
+  display: flex;
+  justify-content: center;
+  
+}
+.but{
+    padding: 2rem;
+    font-size: 5rem;
+    background-color: var(--blue-shade);
+    color: rgb(248, 15, 15);
+    width: 59rem;
+}
+.but:hover{
+    background-color: red;
+}
 
