@@ -1,0 +1,47 @@
+#header{
+ background-color: var(--blue-shade);
+ width: 100%;
+ height: 14rem;
+}
+
+.navbar{
+   display:flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.image{
+    padding: 2rem;
+}
+
+.para{
+  display: flex;
+  flex-direction: row;
+  
+    font-size: 25px;
+  
+}
+.para a{
+    padding: 2rem;
+    
+}
+.gros{
+    background-color: var( --yellow);
+ 
+  width: 100%;
+  height: 20rem;
+  font-size: 24px;
+}
+.title{
+   text-align: center;
+   margin: 1.5rem;
+   padding: 2rem;
+}
+.paragraph{
+ text-align: center;
+ color: var(--blue);
+ padding: 1rem;
+}
+
+
